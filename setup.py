@@ -1,15 +1,15 @@
 from setuptools import setup, find_packages
 from typing import List
 
-with open('README.MD', 'r', encoding='utf-8') as f:
+with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()     
    
 
 __version__ = "0.0.0"
 REPO_NAME = "mongodb_connector_pkg"
-PKG_NAME= "mongodb_connector_pkg"
+PKG_NAME= "database_automation"
 AUTHOR_USER_NAME = "kunalc232"
-AUTHOR_EMAIL = "kunbalc232@gmail.com"
+AUTHOR_EMAIL = "kunalc232@gmail.com"
 
 setup(
     name=PKG_NAME,
